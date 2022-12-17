@@ -1,0 +1,28 @@
+<div class="page-container">
+    <header>
+        <div>
+            <button mat-button class="menu-button" (click)="sidenav.toggle()">
+                <mat-icon>{{ isMenuOpen ? 'menu_open' : 'menu' }}</mat-icon>
+            </button>
+
+            <a routerLink="/">
+            </a>
+        </div>
+        <div class="chart-text">Charts</div>
+    </header>
+    
+    <mat-sidenav-container class="sidenav-container" hasBackdrop="false">
+        <mat-sidenav #sidenav autoFocus="true" mode="push" [(opened)]="isMenuOpen" class="sidenav"  >
+        <!-- more code here -->
+        <div #chart1 class="demo-chart1"></div>
+        <div #chart2 class="demo-chart2"></div>
+
+    </mat-sidenav>
+    <mat-sidenav-content>
+        <main>
+                <app-map></app-map>
+                <router-outlet></router-outlet>
+            </main>
+        </mat-sidenav-content>
+    </mat-sidenav-container>
+</div>
