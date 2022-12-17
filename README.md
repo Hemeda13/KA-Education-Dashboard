@@ -1,5 +1,7 @@
 # MyApp
 
+Live Demo: https://master.d1uzz8rhi7przw.amplifyapp.com/
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.3.
 
 ## Development server
