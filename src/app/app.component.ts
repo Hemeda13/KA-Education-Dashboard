@@ -18,7 +18,7 @@ export class AppComponent implements OnInit {
   chart1!: ECharts;
   chart2!: ECharts;
 
-  public isMenuOpen: boolean = false;
+  public isMenuOpen: boolean = true;
   chartOption: EChartsOption = {
     
     title: {
