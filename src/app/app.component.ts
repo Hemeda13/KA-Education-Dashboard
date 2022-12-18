@@ -116,7 +116,7 @@ export class AppComponent implements OnInit {
       const topFive: any = sortedData.slice(0, 5);
       this.chartOption2.series = [
         {
-          name: 'Access From',
+          name: 'Schools No.',
           type: 'pie',
           radius: '55%',
           center: ['50%', '50%'],
