@@ -66,7 +66,7 @@ export class AppComponent implements OnInit {
     },
     visualMap: {
       show: false,
-      min: 300,
+      min: 1,
       max: 1000,
       inRange: {
         colorLightness: [0, 1]
